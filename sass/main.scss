@@ -72,24 +72,6 @@
 		}
 	}
 
-    #quilledcreations {
-
-      color: #FFF;
-      //background-color: #FFF;
-      text-shadow: none;
-
-      &:hover {
-        //@include transition(color .3s ease);
-        background-color: $button-color;
-        color: #FFF;
-      }
-
-      &.blink {
-        background-color: $button-color;
-        color: #b1b1b1;
-      }
-    }
-
 	b, strong {
 		font-weight: 600;
 		color: #3e3e3e;
@@ -383,6 +365,23 @@
 				background-color: #3f3f3f;
 			}
 		}
+
+        &.white-owl {
+          font-size: 2.4em;
+          background-color: #FFFFFF;
+          padding: 0.5em 1.5em 0.9em;
+
+          img {
+            top: 5px;
+            position: relative;
+          }
+
+          &.thanks {
+            padding: 0.3em 1em 0.6em;
+            margin: 0.3em 14em 0.12em;
+          }
+        }
+
 	}
 
 /* List */
@@ -621,6 +620,27 @@
 				}
 			}
 		}
+
+      .home-owl {vertical-align: bottom;}
+
+      &.author {
+
+        .container {
+          margin: 0;
+          width: 100%;
+        }
+
+
+        img {
+          width: 46.5%;
+          margin: 0.5% 1%;
+
+          &.index {
+            width: 95.5%;
+            margin-top: 1%;
+          }
+        }
+      }
 	}
 
     #portfolio div.p-box article {
@@ -820,7 +840,7 @@
 				text-align: center;
 
 				&.first {
-					padding-top: 12em;
+					padding-top: 7em;
 				}
 			}
 
@@ -1006,6 +1026,7 @@
 				font-size: 1.2em;
 				width: 100%;
 				padding: 1em 0 1em 0;
+
 			}
 
 		/* List */
@@ -1072,6 +1093,13 @@
 				&.first {
 					padding-top: 5em;
 				}
+
+              &.author {
+                  img {
+                    width: 98%;
+                  }
+
+              }
 			}
 
 		/* Nav */

@@ -47,7 +47,7 @@
 				var x = parseInt($('.wrapper').first().css('padding-top')) - 15;
 
 				$('#nav a, .scrolly').scrolly({
-					speed: 1000,
+					speed: 500,
 					offset: x
 				});
 
@@ -58,7 +58,7 @@
 })(jQuery);
 
 $(document).ready(function(){
-    setInterval(function(){
-        $('#quilledcreations').toggleClass('blink');
-    }, 400);
+    //setInterval(function(){
+    //    $('#quilledcreations').toggleClass('blink');
+    //}, 400);
 });
